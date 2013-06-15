@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1833CF48176C5FD0007F8692 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833CF47176C5FD0007F8692 /* LoginViewController.m */; };
+		1833CF4E176C6083007F8692 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF4D176C6083007F8692 /* LoginViewController.xib */; };
+		1833CF52176C60B1007F8692 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833CF50176C60B1007F8692 /* RegistrationViewController.m */; };
+		1833CF53176C60B1007F8692 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF51176C60B1007F8692 /* RegistrationViewController.xib */; };
+		1833CF5F176C68D0007F8692 /* splashScreen_iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF54176C68D0007F8692 /* splashScreen_iPhone4.png */; };
+		1833CF60176C68D0007F8692 /* splashScreen_iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF55176C68D0007F8692 /* splashScreen_iPhone5.png */; };
+		1833CF78176C7B67007F8692 /* splashScreen_iPhone3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF6E176C7B65007F8692 /* splashScreen_iPhone3.png */; };
+		1833CF96176C7C0B007F8692 /* aanmelden.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF83176C7C0B007F8692 /* aanmelden.png */; };
+		1833CF97176C7C0B007F8692 /* inloggen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF84176C7C0B007F8692 /* inloggen.png */; };
+		1833CF98176C7C0B007F8692 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF85176C7C0B007F8692 /* nav.png */; };
+		1833CF99176C7C0B007F8692 /* radio_btn_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF86176C7C0B007F8692 /* radio_btn_select.png */; };
+		1833CF9A176C7C0B007F8692 /* radio_btn_unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF87176C7C0B007F8692 /* radio_btn_unselect.png */; };
+		1833CF9B176C7C0B007F8692 /* registerer.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF88176C7C0B007F8692 /* registerer.png */; };
+		1833CF9C176C7C0B007F8692 /* registereren.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF89176C7C0B007F8692 /* registereren.png */; };
+		1833CF9D176C7C0B007F8692 /* text_box_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF8A176C7C0B007F8692 /* text_box_large.png */; };
+		1833CF9E176C7C0B007F8692 /* text_box_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF8B176C7C0B007F8692 /* text_box_small.png */; };
+		1833CF9F176C7C0B007F8692 /* aanmelden@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF8D176C7C0B007F8692 /* aanmelden@2x.png */; };
+		1833CFA0176C7C0B007F8692 /* inloggen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF8E176C7C0B007F8692 /* inloggen@2x.png */; };
+		1833CFA1176C7C0B007F8692 /* nav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF8F176C7C0B007F8692 /* nav@2x.png */; };
+		1833CFA2176C7C0B007F8692 /* radio_btn_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF90176C7C0B007F8692 /* radio_btn_select@2x.png */; };
+		1833CFA3176C7C0B007F8692 /* radio_btn_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF91176C7C0B007F8692 /* radio_btn_unselect@2x.png */; };
+		1833CFA4176C7C0B007F8692 /* registerer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF92176C7C0B007F8692 /* registerer@2x.png */; };
+		1833CFA5176C7C0B007F8692 /* registereren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF93176C7C0B007F8692 /* registereren@2x.png */; };
+		1833CFA6176C7C0B007F8692 /* text_box_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF94176C7C0B007F8692 /* text_box_large@2x.png */; };
+		1833CFA7176C7C0B007F8692 /* text_box_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833CF95176C7C0B007F8692 /* text_box_small@2x.png */; };
+		18779545176C521900BBA9B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18779544176C521900BBA9B3 /* UIKit.framework */; };
+		18779547176C521900BBA9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18779546176C521900BBA9B3 /* Foundation.framework */; };
+		18779549176C521900BBA9B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18779548176C521900BBA9B3 /* CoreGraphics.framework */; };
+		1877954F176C521900BBA9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1877954D176C521900BBA9B3 /* InfoPlist.strings */; };
+		18779551176C521900BBA9B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18779550176C521900BBA9B3 /* main.m */; };
+		18779555176C521900BBA9B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18779554176C521900BBA9B3 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18779557176C521900BBA9B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18779556176C521900BBA9B3 /* Default.png */; };
+		18779559176C521900BBA9B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18779558176C521900BBA9B3 /* Default@2x.png */; };
+		1877955B176C521900BBA9B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877955A176C521900BBA9B3 /* Default-568h@2x.png */; };
+		1877956E176C57B900BBA9B3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1877956D176C57B900BBA9B3 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1833CF46176C5FD0007F8692 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1833CF47176C5FD0007F8692 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1833CF4D176C6083007F8692 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1833CF4F176C60B1007F8692 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		1833CF50176C60B1007F8692 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		1833CF51176C60B1007F8692 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		1833CF54176C68D0007F8692 /* splashScreen_iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen_iPhone4.png; sourceTree = "<group>"; };
+		1833CF55176C68D0007F8692 /* splashScreen_iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen_iPhone5.png; sourceTree = "<group>"; };
+		1833CF6E176C7B65007F8692 /* splashScreen_iPhone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen_iPhone3.png; sourceTree = "<group>"; };
+		1833CF83176C7C0B007F8692 /* aanmelden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aanmelden.png; sourceTree = "<group>"; };
+		1833CF84176C7C0B007F8692 /* inloggen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inloggen.png; sourceTree = "<group>"; };
+		1833CF85176C7C0B007F8692 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		1833CF86176C7C0B007F8692 /* radio_btn_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_btn_select.png; sourceTree = "<group>"; };
+		1833CF87176C7C0B007F8692 /* radio_btn_unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_btn_unselect.png; sourceTree = "<group>"; };
+		1833CF88176C7C0B007F8692 /* registerer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerer.png; sourceTree = "<group>"; };
+		1833CF89176C7C0B007F8692 /* registereren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registereren.png; sourceTree = "<group>"; };
+		1833CF8A176C7C0B007F8692 /* text_box_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_large.png; sourceTree = "<group>"; };
+		1833CF8B176C7C0B007F8692 /* text_box_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_small.png; sourceTree = "<group>"; };
+		1833CF8D176C7C0B007F8692 /* aanmelden@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aanmelden@2x.png"; sourceTree = "<group>"; };
+		1833CF8E176C7C0B007F8692 /* inloggen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inloggen@2x.png"; sourceTree = "<group>"; };
+		1833CF8F176C7C0B007F8692 /* nav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav@2x.png"; sourceTree = "<group>"; };
+		1833CF90176C7C0B007F8692 /* radio_btn_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_btn_select@2x.png"; sourceTree = "<group>"; };
+		1833CF91176C7C0B007F8692 /* radio_btn_unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_btn_unselect@2x.png"; sourceTree = "<group>"; };
+		1833CF92176C7C0B007F8692 /* registerer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "registerer@2x.png"; sourceTree = "<group>"; };
+		1833CF93176C7C0B007F8692 /* registereren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "registereren@2x.png"; sourceTree = "<group>"; };
+		1833CF94176C7C0B007F8692 /* text_box_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_box_large@2x.png"; sourceTree = "<group>"; };
+		1833CF95176C7C0B007F8692 /* text_box_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_box_small@2x.png"; sourceTree = "<group>"; };
+		18779541176C521900BBA9B3 /* FietsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FietsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18779544176C521900BBA9B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18779546176C521900BBA9B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18779548176C521900BBA9B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1877954C176C521900BBA9B3 /* FietsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FietsApp-Info.plist"; sourceTree = "<group>"; };
+		1877954E176C521900BBA9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18779550176C521900BBA9B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18779552176C521900BBA9B3 /* FietsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FietsApp-Prefix.pch"; sourceTree = "<group>"; };
+		18779553176C521900BBA9B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18779554176C521900BBA9B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18779556176C521900BBA9B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18779558176C521900BBA9B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1877955A176C521900BBA9B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1877956D176C57B900BBA9B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1877953E176C521900BBA9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1877956E176C57B900BBA9B3 /* QuartzCore.framework in Frameworks */,
+				18779545176C521900BBA9B3 /* UIKit.framework in Frameworks */,
+				18779547176C521900BBA9B3 /* Foundation.framework in Frameworks */,
+				18779549176C521900BBA9B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1833CF3D176C5D76007F8692 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1833CF6E176C7B65007F8692 /* splashScreen_iPhone3.png */,
+				1833CF54176C68D0007F8692 /* splashScreen_iPhone4.png */,
+				1833CF55176C68D0007F8692 /* splashScreen_iPhone5.png */,
+				1833CF82176C7C0B007F8692 /* non-retina */,
+				1833CF8C176C7C0B007F8692 /* retina */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1833CF44176C5FD0007F8692 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1833CF4F176C60B1007F8692 /* RegistrationViewController.h */,
+				1833CF50176C60B1007F8692 /* RegistrationViewController.m */,
+				1833CF51176C60B1007F8692 /* RegistrationViewController.xib */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1833CF45176C5FD0007F8692 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1833CF46176C5FD0007F8692 /* LoginViewController.h */,
+				1833CF47176C5FD0007F8692 /* LoginViewController.m */,
+				1833CF4D176C6083007F8692 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1833CF82176C7C0B007F8692 /* non-retina */ = {
+			isa = PBXGroup;
+			children = (
+				1833CF83176C7C0B007F8692 /* aanmelden.png */,
+				1833CF84176C7C0B007F8692 /* inloggen.png */,
+				1833CF85176C7C0B007F8692 /* nav.png */,
+				1833CF86176C7C0B007F8692 /* radio_btn_select.png */,
+				1833CF87176C7C0B007F8692 /* radio_btn_unselect.png */,
+				1833CF88176C7C0B007F8692 /* registerer.png */,
+				1833CF89176C7C0B007F8692 /* registereren.png */,
+				1833CF8A176C7C0B007F8692 /* text_box_large.png */,
+				1833CF8B176C7C0B007F8692 /* text_box_small.png */,
+			);
+			path = "non-retina";
+			sourceTree = "<group>";
+		};
+		1833CF8C176C7C0B007F8692 /* retina */ = {
+			isa = PBXGroup;
+			children = (
+				1833CF8D176C7C0B007F8692 /* aanmelden@2x.png */,
+				1833CF8E176C7C0B007F8692 /* inloggen@2x.png */,
+				1833CF8F176C7C0B007F8692 /* nav@2x.png */,
+				1833CF90176C7C0B007F8692 /* radio_btn_select@2x.png */,
+				1833CF91176C7C0B007F8692 /* radio_btn_unselect@2x.png */,
+				1833CF92176C7C0B007F8692 /* registerer@2x.png */,
+				1833CF93176C7C0B007F8692 /* registereren@2x.png */,
+				1833CF94176C7C0B007F8692 /* text_box_large@2x.png */,
+				1833CF95176C7C0B007F8692 /* text_box_small@2x.png */,
+			);
+			path = retina;
+			sourceTree = "<group>";
+		};
+		18779538176C521900BBA9B3 = {
+			isa = PBXGroup;
+			children = (
+				1833CF3D176C5D76007F8692 /* Images */,
+				1877954A176C521900BBA9B3 /* FietsApp */,
+				18779543176C521900BBA9B3 /* Frameworks */,
+				18779542176C521900BBA9B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18779542176C521900BBA9B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18779541176C521900BBA9B3 /* FietsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18779543176C521900BBA9B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1877956D176C57B900BBA9B3 /* QuartzCore.framework */,
+				18779544176C521900BBA9B3 /* UIKit.framework */,
+				18779546176C521900BBA9B3 /* Foundation.framework */,
+				18779548176C521900BBA9B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1877954A176C521900BBA9B3 /* FietsApp */ = {
+			isa = PBXGroup;
+			children = (
+				18779553176C521900BBA9B3 /* AppDelegate.h */,
+				18779554176C521900BBA9B3 /* AppDelegate.m */,
+				1833CF44176C5FD0007F8692 /* Registration */,
+				1833CF45176C5FD0007F8692 /* Login */,
+				1877954B176C521900BBA9B3 /* Supporting Files */,
+			);
+			path = FietsApp;
+			sourceTree = "<group>";
+		};
+		1877954B176C521900BBA9B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1877954C176C521900BBA9B3 /* FietsApp-Info.plist */,
+				1877954D176C521900BBA9B3 /* InfoPlist.strings */,
+				18779550176C521900BBA9B3 /* main.m */,
+				18779552176C521900BBA9B3 /* FietsApp-Prefix.pch */,
+				18779556176C521900BBA9B3 /* Default.png */,
+				18779558176C521900BBA9B3 /* Default@2x.png */,
+				1877955A176C521900BBA9B3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18779540176C521900BBA9B3 /* FietsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18779564176C521900BBA9B3 /* Build configuration list for PBXNativeTarget "FietsApp" */;
+			buildPhases = (
+				1877953D176C521900BBA9B3 /* Sources */,
+				1877953E176C521900BBA9B3 /* Frameworks */,
+				1877953F176C521900BBA9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FietsApp;
+			productName = FietsApp;
+			productReference = 18779541176C521900BBA9B3 /* FietsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18779539176C521900BBA9B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = triffort;
+			};
+			buildConfigurationList = 1877953C176C521900BBA9B3 /* Build configuration list for PBXProject "FietsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18779538176C521900BBA9B3;
+			productRefGroup = 18779542176C521900BBA9B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18779540176C521900BBA9B3 /* FietsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1877953F176C521900BBA9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1877954F176C521900BBA9B3 /* InfoPlist.strings in Resources */,
+				18779557176C521900BBA9B3 /* Default.png in Resources */,
+				18779559176C521900BBA9B3 /* Default@2x.png in Resources */,
+				1877955B176C521900BBA9B3 /* Default-568h@2x.png in Resources */,
+				1833CF4E176C6083007F8692 /* LoginViewController.xib in Resources */,
+				1833CF53176C60B1007F8692 /* RegistrationViewController.xib in Resources */,
+				1833CF5F176C68D0007F8692 /* splashScreen_iPhone4.png in Resources */,
+				1833CF60176C68D0007F8692 /* splashScreen_iPhone5.png in Resources */,
+				1833CF78176C7B67007F8692 /* splashScreen_iPhone3.png in Resources */,
+				1833CF96176C7C0B007F8692 /* aanmelden.png in Resources */,
+				1833CF97176C7C0B007F8692 /* inloggen.png in Resources */,
+				1833CF98176C7C0B007F8692 /* nav.png in Resources */,
+				1833CF99176C7C0B007F8692 /* radio_btn_select.png in Resources */,
+				1833CF9A176C7C0B007F8692 /* radio_btn_unselect.png in Resources */,
+				1833CF9B176C7C0B007F8692 /* registerer.png in Resources */,
+				1833CF9C176C7C0B007F8692 /* registereren.png in Resources */,
+				1833CF9D176C7C0B007F8692 /* text_box_large.png in Resources */,
+				1833CF9E176C7C0B007F8692 /* text_box_small.png in Resources */,
+				1833CF9F176C7C0B007F8692 /* aanmelden@2x.png in Resources */,
+				1833CFA0176C7C0B007F8692 /* inloggen@2x.png in Resources */,
+				1833CFA1176C7C0B007F8692 /* nav@2x.png in Resources */,
+				1833CFA2176C7C0B007F8692 /* radio_btn_select@2x.png in Resources */,
+				1833CFA3176C7C0B007F8692 /* radio_btn_unselect@2x.png in Resources */,
+				1833CFA4176C7C0B007F8692 /* registerer@2x.png in Resources */,
+				1833CFA5176C7C0B007F8692 /* registereren@2x.png in Resources */,
+				1833CFA6176C7C0B007F8692 /* text_box_large@2x.png in Resources */,
+				1833CFA7176C7C0B007F8692 /* text_box_small@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1877953D176C521900BBA9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18779551176C521900BBA9B3 /* main.m in Sources */,
+				18779555176C521900BBA9B3 /* AppDelegate.m in Sources */,
+				1833CF48176C5FD0007F8692 /* LoginViewController.m in Sources */,
+				1833CF52176C60B1007F8692 /* RegistrationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1877954D176C521900BBA9B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1877954E176C521900BBA9B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18779562176C521900BBA9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Triffort Technologies Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Triffort Technologies Private Limited";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7E6281D6-8844-402D-8D67-E757AA2E8EAB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E6281D6-8844-402D-8D67-E757AA2E8EAB";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18779563176C521900BBA9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Triffort Technologies Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Triffort Technologies Private Limited";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7E6281D6-8844-402D-8D67-E757AA2E8EAB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E6281D6-8844-402D-8D67-E757AA2E8EAB";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18779565176C521900BBA9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FietsApp/FietsApp-Prefix.pch";
+				INFOPLIST_FILE = "FietsApp/FietsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18779566176C521900BBA9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FietsApp/FietsApp-Prefix.pch";
+				INFOPLIST_FILE = "FietsApp/FietsApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1877953C176C521900BBA9B3 /* Build configuration list for PBXProject "FietsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18779562176C521900BBA9B3 /* Debug */,
+				18779563176C521900BBA9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18779564176C521900BBA9B3 /* Build configuration list for PBXNativeTarget "FietsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18779565176C521900BBA9B3 /* Debug */,
+				18779566176C521900BBA9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18779539176C521900BBA9B3 /* Project object */;
+}
