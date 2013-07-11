@@ -5,5 +5,4 @@
 @interface RegistrationViewController : UIViewController <UITextFieldDelegate> {
     IBOutlet UIScrollView *scrollView;
 }
-
 @end

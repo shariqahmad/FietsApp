@@ -4,6 +4,8 @@
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>
 
+@property (nonatomic,retain) IBOutlet UITextField *userName_TextField;
+@property (nonatomic,retain) IBOutlet UITextField *Password_TextField;
 @property (nonatomic,retain) IBOutlet UIButton *stadskanaalButton;
 @property (nonatomic,retain) IBOutlet UIButton *velperenghButton;
 @property (nonatomic,retain) IBOutlet UIButton *stoombootwegButton;
@@ -23,6 +25,8 @@
 -(IBAction)onClickRedioButton:(id)sender;
 
 -(IBAction)onClickServerRedioButton:(id)sender;
+
+-(IBAction)obClickLogin:(id)sender;
 
 
 @end
